@@ -195,7 +195,7 @@
     dest: '/etc/ansible/facts.d/ferm.fact'
     owner: 'root'
     group: 'root'
-    mode: '0644'
+    mode: '0400'
   tags: [ 'role::ferm:rules' ]
   register: ferm__register_facts
 
